@@ -12,11 +12,11 @@
 
 ## 1. Tujuan Praktikum
 ### Praktikum ini bertujuan untuk memahami:
-**1. Konsep dasar database MySQL.**
-**2. Cara membuat koneksi PHP–MySQL.**
-**3. Implementasi CRUD (Create, Read, Update, Delete).**
-**4. Mengupload file (gambar) melalui PHP.**
-**5. Membuat aplikasi sederhana data barang seperti pada modul praktikum**
+- Konsep dasar database MySQL
+- Cara membuat koneksi PHP–MySQL.**
+- Implementasi CRUD (Create, Read, Update, Delete).**
+- Mengupload file (gambar) melalui PHP.**
+- Membuat aplikasi sederhana data barang seperti pada modul praktikum**
 
 ## 2. Persiapan Praktikum
 Sebelum memulai, lakukan langkah berikut:
