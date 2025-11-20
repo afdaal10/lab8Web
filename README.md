@@ -1,3 +1,10 @@
+# Identitas Mahasiswa
+
+**Nama :** Afdhal Agislam  
+**NIM :** 312410445  
+**Kelas :** TI.24.A5 
+
+
 ## LAPORAN PRAKTIKUM 8 — PHP & MySQL (CRUD)
 
 ## 1. Tujuan Praktikum
@@ -92,7 +99,7 @@ Jika berhasil, user akan diarahkan kembali ke *index.php* dan data tampil di tab
 ![Screenshot tabel](tambah_barang.png)
 
 
-7. Halaman ubah.php (UPDATE DATA)
+## 7. Halaman ubah.php (UPDATE DATA)
 Halaman ini menampilkan data yang ingin diedit berdasarkan id_barang.
 
 Fitur:
