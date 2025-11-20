@@ -14,6 +14,7 @@ Sebelum memulai, lakukan langkah berikut:
 - Jalankan Apache & MySQL.
 - Pastikan folder htdocs dapat digunakan untuk menyimpan file project.
 - Pastikan phpMyAdmin dapat dibuka melalui http://localhost/phpmyadmin/
+
 Screenshot:
 ![Screenshot XAMPP](xampp.png)
 
@@ -37,6 +38,7 @@ CREATE TABLE data_barang (
 ```
 
 Tabel ini akan digunakan aplikasi CRUD untuk menyimpan data barang seperti nama, kategori, harga beli, harga jual, stok, dan gambar (path file).
+
 Screenshot:
 ![Screenshot tabel](phpmyadmin.png)
 
@@ -97,6 +99,7 @@ Fitur:
 - Pre-filled form (data lama sudah muncul di textfield)
 - User bisa mengganti gambar atau membiarkan yang lama
 - Setelah disimpan, kembali ke index.php
+
 Screenshot:
 ![Screenshot tabel](ubah_barang.png)
 
