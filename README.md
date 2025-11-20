@@ -15,7 +15,7 @@ Sebelum memulai, lakukan langkah berikut:
 - Pastikan folder htdocs dapat digunakan untuk menyimpan file project.
 - Pastikan phpMyAdmin dapat dibuka melalui http://localhost/phpmyadmin/
 
-Screenshot:
+## Screenshot:
 ![Screenshot XAMPP](xampp.png)
 
 ## 3. Membuat Database & Tabel
@@ -39,7 +39,7 @@ CREATE TABLE data_barang (
 
 Tabel ini akan digunakan aplikasi CRUD untuk menyimpan data barang seperti nama, kategori, harga beli, harga jual, stok, dan gambar (path file).
 
-Screenshot:
+## Screenshot:
 ![Screenshot tabel](phpmyadmin.png)
 
 ## 4. File koneksi.php
@@ -61,7 +61,7 @@ if (!$conn) {
 ?>
 ```
 
-Screenshot:
+## Screenshot:
 ![Screenshot tabel](koneksi.png)
 
 
@@ -75,7 +75,7 @@ Fitur:
 - Tombol **Hapus**
 - Tombol **Tambah Data**
 
-Screenshot:
+## Screenshot:
 ![Screenshot tabel](data_barang.png)
 
 ##  6. Halaman tambah.php (CREATE DATA)
@@ -88,7 +88,7 @@ Fungsi:
 
 Jika berhasil, user akan diarahkan kembali ke *index.php* dan data tampil di tabel.
 
-Screenshot:
+## Screenshot:
 ![Screenshot tabel](tambah_barang.png)
 
 
@@ -100,7 +100,7 @@ Fitur:
 - User bisa mengganti gambar atau membiarkan yang lama
 - Setelah disimpan, kembali ke index.php
 
-Screenshot:
+## Screenshot:
 ![Screenshot tabel](ubah_barang.png)
 
 ## 8. Membuat hapus.php (DELETE DATA)
