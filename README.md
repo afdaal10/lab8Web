@@ -15,7 +15,7 @@ Sebelum memulai, lakukan langkah berikut:
 - Pastikan folder htdocs dapat digunakan untuk menyimpan file project.
 - Pastikan phpMyAdmin dapat dibuka melalui http://localhost/phpmyadmin/
 Screenshot:
-[Sisipkan screenshot XAMPP di sini]
+![Screenshot XAMPP](xampp.png)
 
 3. Membuat Database & Tabel
 Masuk ke phpMyAdmin → klik *New* → buat database dengan nama:
