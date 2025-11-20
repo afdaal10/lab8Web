@@ -17,10 +17,10 @@ Sebelum memulai, lakukan langkah berikut:
 Screenshot:
 ![Screenshot XAMPP](xampp.png)
 
-3. Membuat Database & Tabel
+## 3. Membuat Database & Tabel
 Masuk ke phpMyAdmin → klik *New* → buat database dengan nama:
 
-latihan1
+### latihan1
 
 Setelah database dibuat, jalankan perintah SQL berikut:
 
@@ -38,9 +38,9 @@ CREATE TABLE data_barang (
 
 Tabel ini akan digunakan aplikasi CRUD untuk menyimpan data barang seperti nama, kategori, harga beli, harga jual, stok, dan gambar (path file).
 Screenshot:
-[Sisipkan screenshot struktur tabel data_barang]
+![Screenshot tabel](phpmyadmin.png)
 
-4. File koneksi.php
+## 4. File koneksi.php
 File ini digunakan agar aplikasi PHP dapat terhubung dengan MySQL.
 
 ```
@@ -60,9 +60,10 @@ if (!$conn) {
 ```
 
 Screenshot:
-[Sisipkan screenshot koneksi berhasil]
+![Screenshot tabel](koneksi.png)
 
-5. Halaman index.php (READ DATA)
+
+## 5. Halaman index.php (READ DATA)
 Halaman ini menampilkan seluruh data barang dari database dalam bentuk tabel.
 
 Fitur:
@@ -73,9 +74,9 @@ Fitur:
 - Tombol **Tambah Data**
 
 Screenshot:
-[Sisipkan screenshot tampilan index data_barang]
+![Screenshot tabel](data_barang.png)
 
-6. Halaman tambah.php (CREATE DATA)
+##  6. Halaman tambah.php (CREATE DATA)
 Halaman ini digunakan untuk menambahkan data baru.
 
 Fungsi:
@@ -86,7 +87,8 @@ Fungsi:
 Jika berhasil, user akan diarahkan kembali ke *index.php* dan data tampil di tabel.
 
 Screenshot:
-[Sisipkan screenshot form tambah data]
+![Screenshot tabel](tambah_barang.png)
+
 
 7. Halaman ubah.php (UPDATE DATA)
 Halaman ini menampilkan data yang ingin diedit berdasarkan id_barang.
@@ -96,12 +98,12 @@ Fitur:
 - User bisa mengganti gambar atau membiarkan yang lama
 - Setelah disimpan, kembali ke index.php
 Screenshot:
-[Sisipkan screenshot form ubah data]
+![Screenshot tabel](ubah_barang.png)
 
-8. Membuat hapus.php (DELETE DATA)
+## 8. Membuat hapus.php (DELETE DATA)
 File hapus.php berfungsi untuk menghapus 1 data barang dari database berdasarkan id_barang.
 
-10. Struktur Folder Project
+## 9. Struktur Folder Project
 Struktur wajib agar upload gambar bekerja:
 
 lab8_php_database/
@@ -112,8 +114,7 @@ lab8_php_database/
 │── koneksi.php
 └── gambar/   
 
-Pastikan folder *gambar/* dibuat, karena tanpa ini upload tidak akan berhasil.
-10. Kesimpulan
+## 10. Kesimpulan
 Membuat aplikasi CRUD data barang yang terdiri dari:
 - Koneksi database
 - Menampilkan data (READ)
